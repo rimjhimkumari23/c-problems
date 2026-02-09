@@ -1,7 +1,11 @@
 #include <stdio.h>
 int main() {
-    float a,b;
-    scanf("%f%f",&a,&b);
-    printf("%.2f*%.2f=%.2f",a,b,a*b);
+    int a,n;
+    scanf("%d",&a);
+
+    for (int i=1;i<=10;i++) {
+        n=a*i;
+        printf("%d\n",n);
+    }
     return 0;
 }
