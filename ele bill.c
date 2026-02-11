@@ -1,10 +1,15 @@
 #include <stdio.h>
 int main() {
-    int a;
-    scanf("%d",&a);
-    if (a*=5) {
-        printf("bill amount=RS.%d",a);
-    }
-    return 0;
+    int n,even;
+    int sum=0;
+    scanf("%d",&n);
 
+    for (int i=2;i<=n;i+=2) {
+        sum+=i;
+
+
+    }
+    printf("%d",sum);
+
+    return 0;
 }

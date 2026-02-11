@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main() {
     int n;
-    int sum=0;
     scanf("%d",&n);
+    int count=0;
     for (;n!=0;n/=10) {
-        sum=sum+(n%10);
+        count++;
     }
-    printf("%d",sum);
+    printf("%d",count);
+
     return 0;
 }
